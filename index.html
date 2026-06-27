@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solevi Faux Fur Hoodies | thesolevi.com</title>
+    <meta
+      name="description"
+      content="Solevi faux fur hoodies. Premium comfort, oversized fit, and founder edition details at thesolevi.com."
+    />
+    <style>
+      :root {
+        --black: #080807;
+        --ink: #171411;
+        --charcoal: #27241f;
+        --cream: #f4ecdf;
+        --warm: #d8c4aa;
+        --taupe: #8e7d68;
+        --cloud: #70849a;
+        --sage: #829077;
+        --lilac: #c9b6d4;
+        --white: #fffaf2;
+        --line: rgba(244, 236, 223, 0.22);
+        --dark-line: rgba(23, 20, 17, 0.12);
+        --shadow: 0 22px 70px rgba(0, 0, 0, 0.28);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--cream);
+        background: var(--black);
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      button,
+      input {
+        font: inherit;
+      }
+
+      .site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        width: 100%;
+        border-bottom: 1px solid rgba(244, 236, 223, 0.14);
+        background: rgba(8, 8, 7, 0.74);
+        backdrop-filter: blur(18px);
+      }
+
+      .nav {
+        width: min(1180px, calc(100% - 32px));
+        height: 72px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 22px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 11px;
+        color: var(--cream);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 26px;
+        line-height: 1;
+      }
+
+      .brand-mark {
+        width: 48px;
+        height: 48px;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        border: 1px solid rgba(244, 236, 223, 0.24);
+        border-radius: 8px;
+        background: #000000;
+      }
+
+      .brand-mark img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .hero-logo {
+        width: 156px;
+        height: 156px;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        margin-bottom: 22px;
+        border: 1px solid rgba(244, 236, 223, 0.2);
+        border-radius: 8px;
+        background: #000000;
+        box-shadow: 0 18px 52px rgba(0, 0, 0, 0.35);
+      }
+
+      .hero-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        color: rgba(244, 236, 223, 0.78);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .nav-links a {
+        padding: 8px 0;
+      }
+
+      .nav-cta,
+      .button {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        padding: 0 18px;
+        font-weight: 800;
+        line-height: 1;
+        cursor: pointer;
+      }
+
+      .nav-cta,
+      .button.primary {
+        color: var(--black);
+        background: var(--cream);
+      }
+
+      .button.secondary {
+        color: var(--cream);
+        border-color: rgba(244, 236, 223, 0.46);
+        background: rgba(244, 236, 223, 0.08);
+      }
+
+      .hero {
+        min-height: 86svh;
+        display: grid;
+        align-items: center;
+        padding: 118px 0 56px;
+        background:
+          linear-gradient(90deg, rgba(8, 8, 7, 0.94) 0%, rgba(8, 8, 7, 0.72) 45%, rgba(8, 8, 7, 0.24) 100%),
+          url("solevi-assets/solevi-brand-board.jpeg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .hero-inner,
+      .section-inner {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .hero-copy {
+        max-width: 650px;
+      }
+
+      .eyebrow,
+      .section-label {
+        margin: 0 0 16px;
+        color: var(--warm);
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 18px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(64px, 12vw, 142px);
+        line-height: 0.9;
+        font-weight: 500;
+      }
+
+      .hero-lede {
+        max-width: 590px;
+        margin-bottom: 12px;
+        color: rgba(255, 250, 242, 0.9);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(28px, 4vw, 52px);
+        line-height: 1.05;
+      }
+
+      .hero-subcopy {
+        max-width: 520px;
+        margin-bottom: 30px;
+        color: rgba(244, 236, 223, 0.78);
+        font-size: 18px;
+        line-height: 1.7;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 42px;
+      }
+
+      .hero-points {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        max-width: 760px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .hero-points li {
+        min-height: 76px;
+        display: grid;
+        place-items: center;
+        border: 1px solid rgba(244, 236, 223, 0.2);
+        border-radius: 8px;
+        padding: 14px;
+        color: rgba(255, 250, 242, 0.86);
+        background: rgba(8, 8, 7, 0.36);
+        text-align: center;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      section {
+        padding: 82px 0;
+      }
+
+      .light {
+        color: var(--ink);
+        background: var(--white);
+      }
+
+      .dark {
+        color: var(--cream);
+        background: #12110f;
+      }
+
+      .section-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 28px;
+        margin-bottom: 34px;
+      }
+
+      .section-top h2 {
+        max-width: 720px;
+        margin-bottom: 0;
+      }
+
+      .section-top p {
+        max-width: 390px;
+        margin-bottom: 0;
+        color: rgba(23, 20, 17, 0.68);
+        line-height: 1.65;
+      }
+
+      .dark .section-top p,
+      .dark .lead {
+        color: rgba(244, 236, 223, 0.72);
+      }
+
+      h2 {
+        margin-bottom: 18px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(34px, 5vw, 62px);
+        line-height: 1.02;
+        font-weight: 500;
+      }
+
+      h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+
+      .lead {
+        max-width: 760px;
+        margin-bottom: 0;
+        color: rgba(23, 20, 17, 0.7);
+        font-size: 18px;
+        line-height: 1.75;
+      }
+
+      .launch-grid {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 22px;
+        align-items: stretch;
+      }
+
+      .media-panel {
+        overflow: hidden;
+        border-radius: 8px;
+        background: #191713;
+        box-shadow: var(--shadow);
+      }
+
+      .media-panel img {
+        width: 100%;
+        height: 100%;
+        min-height: 520px;
+        object-fit: cover;
+      }
+
+      .product-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid var(--dark-line);
+        border-radius: 8px;
+        padding: 30px;
+        background: #f8f1e7;
+      }
+
+      .product-kicker {
+        display: inline-flex;
+        align-self: flex-start;
+        margin-bottom: 18px;
+        border: 1px solid rgba(23, 20, 17, 0.18);
+        border-radius: 8px;
+        padding: 8px 10px;
+        color: rgba(23, 20, 17, 0.72);
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .product-panel h2 {
+        font-size: clamp(34px, 4vw, 56px);
+      }
+
+      .feature-list {
+        display: grid;
+        gap: 12px;
+        padding: 0;
+        margin: 26px 0;
+        list-style: none;
+      }
+
+      .feature-list li {
+        display: flex;
+        gap: 12px;
+        align-items: start;
+        color: rgba(23, 20, 17, 0.72);
+        line-height: 1.55;
+      }
+
+      .feature-list li::before {
+        content: "";
+        flex: 0 0 9px;
+        width: 9px;
+        height: 9px;
+        margin-top: 8px;
+        border-radius: 99px;
+        background: var(--cloud);
+      }
+
+      .selector-row {
+        display: grid;
+        gap: 14px;
+        margin-top: 24px;
+      }
+
+      .selector-label {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        color: rgba(23, 20, 17, 0.7);
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .swatches,
+      .sizes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .swatch,
+      .size-button {
+        border: 1px solid rgba(23, 20, 17, 0.18);
+        border-radius: 8px;
+        background: var(--white);
+      }
+
+      .swatch {
+        width: 42px;
+        height: 42px;
+        padding: 4px;
+      }
+
+      .swatch span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        border: 1px solid rgba(23, 20, 17, 0.12);
+      }
+
+      .swatch[aria-pressed="true"],
+      .size-button[aria-pressed="true"] {
+        border-color: var(--ink);
+        box-shadow: 0 0 0 2px rgba(23, 20, 17, 0.14);
+      }
+
+      .size-button {
+        min-width: 48px;
+        min-height: 42px;
+        padding: 0 14px;
+        color: var(--ink);
+        font-weight: 900;
+      }
+
+      .product-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 26px;
+      }
+
+      .product-actions .button.primary {
+        color: var(--cream);
+        background: var(--black);
+      }
+
+      .product-actions .button.secondary {
+        color: var(--ink);
+        border-color: rgba(23, 20, 17, 0.22);
+        background: transparent;
+      }
+
+      .detail-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .detail-card {
+        min-height: 210px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        background: rgba(255, 250, 242, 0.06);
+      }
+
+      .detail-card span {
+        display: inline-flex;
+        width: 42px;
+        height: 42px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 26px;
+        border-radius: 8px;
+        color: var(--black);
+        background: var(--cream);
+        font-weight: 900;
+      }
+
+      .detail-card p {
+        margin-bottom: 0;
+        color: rgba(244, 236, 223, 0.72);
+        line-height: 1.62;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 18px;
+      }
+
+      .gallery-image {
+        overflow: hidden;
+        border-radius: 8px;
+        background: #1b1814;
+      }
+
+      .gallery-image img {
+        width: 100%;
+        height: 100%;
+        min-height: 430px;
+        object-fit: cover;
+      }
+
+      .gallery-copy {
+        display: grid;
+        align-content: center;
+        border: 1px solid var(--dark-line);
+        border-radius: 8px;
+        padding: 30px;
+        background: #f8f1e7;
+      }
+
+      .gallery-copy p {
+        color: rgba(23, 20, 17, 0.68);
+        line-height: 1.75;
+      }
+
+      .color-grid {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .color-card {
+        min-height: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid var(--dark-line);
+        border-radius: 8px;
+        padding: 14px;
+        background: #f8f1e7;
+      }
+
+      .color-chip {
+        min-height: 82px;
+        border-radius: 8px;
+        border: 1px solid rgba(23, 20, 17, 0.12);
+      }
+
+      .color-card strong {
+        margin-top: 12px;
+      }
+
+      .color-card span {
+        color: rgba(23, 20, 17, 0.58);
+        font-size: 13px;
+      }
+
+      .size-wrap {
+        display: grid;
+        grid-template-columns: 0.85fr 1.15fr;
+        gap: 22px;
+        align-items: start;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border-radius: 8px;
+        background: #f8f1e7;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid rgba(23, 20, 17, 0.1);
+        padding: 16px 14px;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      th {
+        color: rgba(23, 20, 17, 0.62);
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .moment-strip {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 24px;
+      }
+
+      .moment {
+        min-height: 118px;
+        display: grid;
+        align-content: end;
+        border: 1px solid var(--dark-line);
+        border-radius: 8px;
+        padding: 16px;
+        background: #f8f1e7;
+        color: var(--ink);
+        font-weight: 900;
+      }
+
+      .packaging {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+        align-items: center;
+      }
+
+      .packaging img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+      }
+
+      .packaging-copy p {
+        color: rgba(244, 236, 223, 0.72);
+        line-height: 1.75;
+      }
+
+      .final-cta {
+        padding: 88px 0;
+        color: var(--black);
+        background: var(--cream);
+      }
+
+      .cta-panel {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .cta-panel h2 {
+        margin-bottom: 12px;
+      }
+
+      .cta-panel p {
+        max-width: 660px;
+        margin-bottom: 0;
+        color: rgba(23, 20, 17, 0.68);
+        line-height: 1.7;
+      }
+
+      .cta-panel .button {
+        color: var(--cream);
+        background: var(--black);
+      }
+
+      footer {
+        padding: 30px 0;
+        color: rgba(244, 236, 223, 0.72);
+        background: var(--black);
+        font-size: 14px;
+      }
+
+      .footer-inner {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      @media (max-width: 980px) {
+        .nav-links {
+          display: none;
+        }
+
+        .hero {
+          min-height: auto;
+          padding-top: 110px;
+          background-position: 38% center;
+        }
+
+        .hero-points,
+        .launch-grid,
+        .detail-grid,
+        .gallery-grid,
+        .size-wrap,
+        .packaging,
+        .cta-panel {
+          grid-template-columns: 1fr;
+        }
+
+        .detail-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .color-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .moment-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .section-top {
+          display: block;
+        }
+
+        .section-top p {
+          margin-top: 14px;
+        }
+
+        .media-panel img,
+        .gallery-image img {
+          min-height: 360px;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .nav {
+          height: 66px;
+        }
+
+        .brand {
+          font-size: 22px;
+        }
+
+        .brand-mark {
+          width: 42px;
+          height: 42px;
+        }
+
+        .hero-logo {
+          width: 118px;
+          height: 118px;
+        }
+
+        .hero-actions,
+        .product-actions {
+          display: grid;
+        }
+
+        .button,
+        .nav-cta {
+          width: 100%;
+        }
+
+        .hero-points,
+        .detail-grid,
+        .color-grid,
+        .moment-strip {
+          grid-template-columns: 1fr;
+        }
+
+        section {
+          padding: 62px 0;
+        }
+
+        .product-panel,
+        .gallery-copy,
+        .detail-card {
+          padding: 22px;
+        }
+
+        th,
+        td {
+          padding: 12px 9px;
+          font-size: 12px;
+        }
+
+        .footer-inner {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Solevi home">
+          <span class="brand-mark"><img src="solevi-assets/solevi-logo.png" alt="" /></span>
+          <span>Solevi</span>
+        </a>
+        <div class="nav-links">
+          <a href="#collection">Collection</a>
+          <a href="#details">Details</a>
+          <a href="#colors">Colors</a>
+          <a href="#fit">Fit</a>
+          <a class="nav-cta" href="https://thesolevi.com">thesolevi.com</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Solevi faux fur hoodie collection">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <div class="hero-logo" aria-hidden="true"><img src="solevi-assets/solevi-logo.png" alt="" /></div>
+            <p class="eyebrow">Faux fur hoodie collection</p>
+            <h1>Solevi</h1>
+            <p class="hero-lede">Hug in comfort, live in Solevi.</p>
+            <p class="hero-subcopy">
+              Ultra soft faux fur hoodies made for cold days, quiet nights,
+              coffee runs, study sessions, and every moment that deserves more comfort.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://thesolevi.com">Shop thesolevi.com</a>
+              <a class="button secondary" href="#collection">Explore the drop</a>
+            </div>
+            <ul class="hero-points" aria-label="Solevi highlights">
+              <li>Ultra soft faux fur</li>
+              <li>Oversized cozy fit</li>
+              <li>Founder edition drop</li>
+              <li>Designed for warmth</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="light" id="collection">
+        <div class="section-inner">
+          <div class="section-top">
+            <div>
+              <p class="section-label">Pre-launch exclusive</p>
+              <h2>Not a hoodie. It is your comfort zone.</h2>
+            </div>
+            <p>
+              Solevi is built around plush texture, relaxed shape, and details
+              that make the piece feel special the second it lands at your door.
+            </p>
+          </div>
+
+          <div class="launch-grid">
+            <div class="media-panel">
+              <img src="solevi-assets/solevi-product-board.jpeg" alt="Solevi faux fur hoodie collection board with colors, details, and fit guide" />
+            </div>
+            <article class="product-panel">
+              <div>
+                <span class="product-kicker">Founders Edition, 100 pieces</span>
+                <h2>Premium faux fur texture with an oversized everyday fit.</h2>
+                <p class="lead">
+                  The first Solevi drop is made to feel like a warm blanket with
+                  the structure of a clean hoodie. Soft inside and out, roomy in
+                  the right places, and finished with small details that define the brand.
+                </p>
+                <ul class="feature-list">
+                  <li>Blanket-level softness inside and out.</li>
+                  <li>Deep hood, snug cuffs, and a roomy kangaroo pocket.</li>
+                  <li>Unisex shape made for layering without feeling bulky.</li>
+                  <li>Signature packaging designed for gifting and unboxing.</li>
+                </ul>
+              </div>
+
+              <div class="selector-row" aria-label="Product selections">
+                <div>
+                  <div class="selector-label">
+                    <span>Color</span>
+                    <span id="selected-color">Cloud Blue</span>
+                  </div>
+                  <div class="swatches" role="group" aria-label="Choose color">
+                    <button class="swatch" type="button" aria-label="Cloud Blue" aria-pressed="true" data-color="Cloud Blue"><span style="background:#70849a"></span></button>
+                    <button class="swatch" type="button" aria-label="Drift Taupe" aria-pressed="false" data-color="Drift Taupe"><span style="background:#8e7d68"></span></button>
+                    <button class="swatch" type="button" aria-label="Cream" aria-pressed="false" data-color="Cream"><span style="background:#eadfce"></span></button>
+                    <button class="swatch" type="button" aria-label="Mocha" aria-pressed="false" data-color="Mocha"><span style="background:#7b5232"></span></button>
+                    <button class="swatch" type="button" aria-label="Sage" aria-pressed="false" data-color="Sage"><span style="background:#829077"></span></button>
+                    <button class="swatch" type="button" aria-label="Black" aria-pressed="false" data-color="Black"><span style="background:#141414"></span></button>
+                    <button class="swatch" type="button" aria-label="Lilac" aria-pressed="false" data-color="Lilac"><span style="background:#c9b6d4"></span></button>
+                  </div>
+                </div>
+                <div>
+                  <div class="selector-label">
+                    <span>Size</span>
+                    <span id="selected-size">M</span>
+                  </div>
+                  <div class="sizes" role="group" aria-label="Choose size">
+                    <button class="size-button" type="button" aria-pressed="false" data-size="S">S</button>
+                    <button class="size-button" type="button" aria-pressed="true" data-size="M">M</button>
+                    <button class="size-button" type="button" aria-pressed="false" data-size="L">L</button>
+                    <button class="size-button" type="button" aria-pressed="false" data-size="XL">XL</button>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <a class="button primary" href="https://thesolevi.com">Reserve on thesolevi.com</a>
+                  <a class="button secondary" href="#fit">View size guide</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="dark" id="details">
+        <div class="section-inner">
+          <div class="section-top">
+            <div>
+              <p class="section-label">Details that define</p>
+              <h2>Made for warmth, texture, and identity.</h2>
+            </div>
+            <p>
+              Every part of the hoodie is built around the feeling: soft enough
+              for home, polished enough to wear out.
+            </p>
+          </div>
+          <div class="detail-grid">
+            <article class="detail-card">
+              <span>01</span>
+              <h3>Ultra soft faux fur</h3>
+              <p>Brushed CloudTouch fabric gives the hoodie its plush, cozy feel.</p>
+            </article>
+            <article class="detail-card">
+              <span>02</span>
+              <h3>Deep hood</h3>
+              <p>Extra room around the hood adds warmth and a clean oversized profile.</p>
+            </article>
+            <article class="detail-card">
+              <span>03</span>
+              <h3>Snug cuffs</h3>
+              <p>Soft ribbed cuffs keep warmth in while making the fit easy to wear.</p>
+            </article>
+            <article class="detail-card">
+              <span>04</span>
+              <h3>Signature patch</h3>
+              <p>A quiet finishing detail that makes the first drop feel collectible.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="light">
+        <div class="section-inner gallery-grid">
+          <div class="gallery-image">
+            <img src="solevi-assets/solevi-brand-board.jpeg" alt="Solevi brand board showing faux fur hoodie texture, mountain mood, and packaging" />
+          </div>
+          <div class="gallery-copy">
+            <p class="section-label">The feeling</p>
+            <h2>Built for comfort. Made to stand out.</h2>
+            <p>
+              The Solevi world is soft, calm, and a little cinematic: winter air,
+              plush texture, oversized comfort, and packaging that feels like it
+              belongs to something you keep reaching for.
+            </p>
+            <p>
+              The collection is made for lazy days, travel days, game nights,
+              campus days, and cold days in Regina when warmth has to work hard.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="light" id="colors">
+        <div class="section-inner">
+          <div class="section-top">
+            <div>
+              <p class="section-label">Color palette</p>
+              <h2>Soft neutrals, cool tones, and one quiet statement shade.</h2>
+            </div>
+            <p>
+              The launch palette keeps the brand calm while giving every buyer a
+              color that feels personal.
+            </p>
+          </div>
+          <div class="color-grid">
+            <article class="color-card"><div class="color-chip" style="background:#eadfce"></div><strong>Cream</strong><span>Warm ivory</span></article>
+            <article class="color-card"><div class="color-chip" style="background:#cbb89c"></div><strong>Oat</strong><span>Soft beige</span></article>
+            <article class="color-card"><div class="color-chip" style="background:#7b5232"></div><strong>Mocha</strong><span>Rich brown</span></article>
+            <article class="color-card"><div class="color-chip" style="background:#829077"></div><strong>Sage</strong><span>Muted green</span></article>
+            <article class="color-card"><div class="color-chip" style="background:#70849a"></div><strong>Slate</strong><span>Cloud blue</span></article>
+            <article class="color-card"><div class="color-chip" style="background:#141414"></div><strong>Black</strong><span>Core dark</span></article>
+            <article class="color-card"><div class="color-chip" style="background:#c9b6d4"></div><strong>Lilac</strong><span>Soft purple</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="light" id="fit">
+        <div class="section-inner size-wrap">
+          <div>
+            <p class="section-label">Oversized fit</p>
+            <h2>Roomy, cozy, and easy to layer.</h2>
+            <p class="lead">
+              The hoodie is intentionally oversized. Choose your usual size for a
+              relaxed cozy fit, or size down if you want less volume.
+            </p>
+            <div class="moment-strip" aria-label="Made for every moment">
+              <div class="moment">Lazy days</div>
+              <div class="moment">Study sessions</div>
+              <div class="moment">Coffee runs</div>
+              <div class="moment">Travel days</div>
+              <div class="moment">Game nights</div>
+            </div>
+          </div>
+          <table aria-label="Solevi size guide">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th>Length</th>
+                <th>Chest</th>
+                <th>Sleeve</th>
+                <th>Height</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>S</td><td>78 cm</td><td>128 cm</td><td>54 cm</td><td>155-165 cm</td></tr>
+              <tr><td>M</td><td>80 cm</td><td>132 cm</td><td>55 cm</td><td>165-175 cm</td></tr>
+              <tr><td>L</td><td>82 cm</td><td>136 cm</td><td>56 cm</td><td>175-185 cm</td></tr>
+              <tr><td>XL</td><td>84 cm</td><td>140 cm</td><td>57 cm</td><td>185-195 cm</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="dark">
+        <div class="section-inner packaging">
+          <div class="packaging-copy">
+            <p class="section-label">Signature packaging</p>
+            <h2>Details that define, from hoodie to box.</h2>
+            <p>
+              The founder edition experience includes a matte black Solevi box
+              designed to make the drop feel premium, giftable, and memorable.
+            </p>
+            <p>
+              It is the kind of packaging that tells the buyer this is more than
+              a hoodie. It is a feeling, folded and ready.
+            </p>
+          </div>
+          <img src="solevi-assets/solevi-box.png" alt="Matte black Solevi faux fur hoodie packaging box" />
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="section-inner cta-panel">
+          <div>
+            <p class="section-label">Launch home</p>
+            <h2>Send people to thesolevi.com.</h2>
+            <p>
+              Use this page as the first impression for the drop: premium faux
+              fur, limited pieces, clear fit details, and a direct path to your domain.
+            </p>
+          </div>
+          <a class="button" href="https://thesolevi.com">Visit thesolevi.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <span>Solevi Faux Fur Hoodies</span>
+        <a href="https://thesolevi.com">thesolevi.com</a>
+      </div>
+    </footer>
+
+    <script>
+      const colorButtons = document.querySelectorAll("[data-color]");
+      const sizeButtons = document.querySelectorAll("[data-size]");
+      const selectedColor = document.getElementById("selected-color");
+      const selectedSize = document.getElementById("selected-size");
+
+      colorButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          colorButtons.forEach((item) => item.setAttribute("aria-pressed", "false"));
+          button.setAttribute("aria-pressed", "true");
+          selectedColor.textContent = button.dataset.color;
+        });
+      });
+
+      sizeButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          sizeButtons.forEach((item) => item.setAttribute("aria-pressed", "false"));
+          button.setAttribute("aria-pressed", "true");
+          selectedSize.textContent = button.dataset.size;
+        });
+      });
+    </script>
+  </body>
+</html>
